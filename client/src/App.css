@@ -10,9 +10,11 @@
   background-color: #282c34;
   height: 4rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
   font-size: calc(10px + 2vmin);
   color: white;
 }
